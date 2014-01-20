@@ -1,4 +1,5 @@
-#pragma once
+#ifndef BASICSHAPES_GENERALSHAPE_INCLUDED
+#define BASICSHAPES_GENERALSHAPE_INCLUDED
 
 #include "Shape.h"
 /*
@@ -21,3 +22,4 @@ public:
 	virtual Point getFarthestPoint(const Shape &shape) const = 0;
 };
 
+#endif

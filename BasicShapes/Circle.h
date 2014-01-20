@@ -1,4 +1,6 @@
-#pragma once
+#ifndef BASICSHAPES_CIRCLE_INCLUDED
+#define BASICSHAPES_CIRCLE_INCLUDED
+
 #include "Shape.h"
 class Circle : public Shape {
 public:
@@ -26,3 +28,4 @@ private:
 	float mRadius;
 };
 
+#endif

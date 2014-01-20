@@ -1,4 +1,6 @@
-#pragma once
+#ifndef BASICSHAPES_RING_INCLUDED
+#define BASICSHAPES_RING_INCLUDED
+
 #include "Circle.h"
 
 class Ring : public Circle{
@@ -28,3 +30,4 @@ private:
 	
 };
 
+#endif

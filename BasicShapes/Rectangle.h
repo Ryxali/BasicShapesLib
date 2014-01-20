@@ -1,4 +1,6 @@
-#pragma once
+#ifndef BASICSHAPES_RECTANGLE_INCLUDED
+#define BASICSHAPES_RECTANGLE_INCLUDED
+
 #include "Shape.h"
 
 class Rectangle : public Shape {
@@ -23,3 +25,5 @@ public:
 private:
 	float mHalfWidth, mHalfHeight;
 };
+
+#endif

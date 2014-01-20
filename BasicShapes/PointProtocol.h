@@ -1,4 +1,5 @@
-#pragma once
+#ifndef BASICSHAPES_POINTPROTOCOL_INCLUDED
+#define BASICSHAPES_POINTPROTOCOL_INCLUDED
 
 class PointProtocol {
 public:
@@ -8,3 +9,5 @@ public:
 	virtual void setX(float x) = 0;
 	virtual void setY(float y) = 0;
 };
+
+#endif

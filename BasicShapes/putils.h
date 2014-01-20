@@ -1,4 +1,6 @@
-#pragma once
+#ifndef BASICSHAPES_PUTILS_INCLUDED
+#define BASICSHAPES_PUTILS_INCLUDED
+
 #include <math.h>
 
 
@@ -78,3 +80,5 @@ inline PointProtocol& operator-=(PointProtocol &p, const float v) {
 	p.setY(p.getY()-v);
 	return p;
 }
+
+#endif

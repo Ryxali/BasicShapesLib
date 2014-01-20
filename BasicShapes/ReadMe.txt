@@ -2,8 +2,6 @@
     STATIC LIBRARY : BasicShapes Project Overview
 ========================================================================
 
-AppWizard has created this BasicShapes library project for you.
-
 This file contains a summary of what you will find in each of the files that
 make up your BasicShapes application.
 
@@ -27,11 +25,5 @@ BasicShapes.vcxproj.filters
 StdAfx.h, StdAfx.cpp
     These files are used to build a precompiled header (PCH) file
     named BasicShapes.pch and a precompiled types file named StdAfx.obj.
-
-/////////////////////////////////////////////////////////////////////////////
-Other notes:
-
-AppWizard uses "TODO:" comments to indicate parts of the source code you
-should add to or customize.
 
 /////////////////////////////////////////////////////////////////////////////

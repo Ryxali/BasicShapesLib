@@ -1,4 +1,6 @@
-#pragma once
+#ifndef BASICSHAPES_SHAPE_INCLUDED
+#define BASICSHAPES_SHAPE_INCLUDED
+
 #include "PointProtocol.h"
 
 // #include "putils.h" for definition
@@ -21,3 +23,4 @@ public:
 	virtual Point getFarthestPoint(const Shape &shape) const = 0;
 };
 
+#endif
