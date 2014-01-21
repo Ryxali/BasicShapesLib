@@ -42,3 +42,8 @@ Point Circle::getFarthestPoint(const Shape &shape) const {
 float Circle::getRadius() const {
 	return mRadius;
 }
+
+void Circle::setRadius(float radius) {
+	assert(radius > 0);
+	mRadius = radius;
+}

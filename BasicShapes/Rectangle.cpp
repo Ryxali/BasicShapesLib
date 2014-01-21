@@ -75,3 +75,10 @@ float Rectangle::getWidth() const {
 float Rectangle::getHeight() const {
 	return mHalfHeight + mHalfHeight;
 }
+
+void Rectangle::setWidth(float width) {
+	mHalfHeight = width/2;
+}
+void Rectangle::setHeight(float height) {
+	mHalfHeight = height/2;
+}

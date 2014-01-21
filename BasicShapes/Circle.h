@@ -24,6 +24,7 @@ public:
 	virtual Point getFarthestPoint(const Shape &shape) const;
 
 	float getRadius() const;
+	void setRadius(float radius);
 private:
 	float mRadius;
 };

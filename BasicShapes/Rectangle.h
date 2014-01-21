@@ -22,6 +22,8 @@ public:
 
 	float getWidth() const;
 	float getHeight() const;
+	void setWidth(float width);
+	void setHeight(float height);
 private:
 	float mHalfWidth, mHalfHeight;
 };

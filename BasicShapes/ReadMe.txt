@@ -22,8 +22,25 @@ BasicShapes.vcxproj.filters
 
 /////////////////////////////////////////////////////////////////////////////
 
-StdAfx.h, StdAfx.cpp
-    These files are used to build a precompiled header (PCH) file
-    named BasicShapes.pch and a precompiled types file named StdAfx.obj.
+Shape.h
+    The base class for the shapes.
+
+PointProtocol.h
+    A protocol (interface) that the shapes follow when doing point-based calculations. 
+
+pUtils.h
+    The under-the-hood class for Point based calculations.
+
+Point.cpp
+    The under-the-hood class definition for Point based calculations.
+
+Circle.h, Circle.cpp
+    A Circle shape.
+
+Rectangle.h, Rectangle.cpp
+    A Rectangle shape.
+
+Ring.h, Ring.cpp
+    A Ring shape that's based on the Circle shape.
 
 /////////////////////////////////////////////////////////////////////////////
