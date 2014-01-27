@@ -28,7 +28,7 @@ namespace pUtils {
 	}
 
 	inline bool isRightOf(const PointProtocol &p0, const PointProtocol &p1) {
-		return p1.getX() < p1.getX();
+		return p0.getX() > p1.getX();
 	}
 
 	inline bool isBelow(const PointProtocol &p0, const PointProtocol &p1) {
